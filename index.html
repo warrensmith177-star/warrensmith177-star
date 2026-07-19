@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Love Messages ❤️</title>
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="logo">❤️ Love Messages</div>
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="Search Love Messages..." aria-label="Search Love Messages">
+    </div>
+    <div class="menu">
+      <button id="darkBtn" class="icon-btn" aria-label="Toggle dark mode">🌙</button>
+    </div>
+  </header>
+
+  <section class="hero">
+    <h1>Beautiful Love Messages</h1>
+    <p>Thousands of romantic quotes to share with the one you love.</p>
+  </section>
+
+  <main class="content">
+    <div id="quoteContainer" class="quotes-grid" aria-live="polite"></div>
+    <div class="controls">
+      <button class="loadBtn" id="loadMoreBtn">Load More</button>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <small>Made with ❤️ — Share a message, favorite the ones you love.</small>
+  </footer>
+
+  <script src="quotes.js"></script>
+  <script src="script.js"></script>
+  <script src="js/search.js"></script>
+  <script src="js/darkmode.js"></script>
+  <script src="js/favorites.js"></script>
+  <script src="js/share.js"></script>
+</body>
+</html>
