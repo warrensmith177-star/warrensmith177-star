@@ -1,1 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
 
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Love Messages ❤️</title>
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="css/animations.css">
+<link rel="stylesheet" href="css/responsive.css">
+<link rel="stylesheet" href="css/dark.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+❤️ Love Messages
+</div>
+
+<div class="search-box">
+
+<input
+type="text"
+id="searchInput"
+placeholder="Search Love Messages...">
+
+</div>
+
+<div class="menu">
+
+<button id="darkBtn">🌙</button>
+
+</div>
+
+</header>
+
+<section class="hero">
+
+<h1>Beautiful Love Messages</h1>
+
+<p>Thousands of Romantic Quotes ❤️</p>
+
+</section>
+
+<div id="quoteContainer"></div>
+
+<button class="loadBtn">
+
+Load More
+
+</button>
+
+<script src="quotes.js"></script>
+
+<script src="script.js"></script>
+
+<script src="js/search.js"></script>
+
+<script src="js/darkmode.js"></script>
+
+<script src="js/favorites.js"></script>
+
+<script src="js/share.js"></script>
+
+</body>
+</html>
